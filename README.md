@@ -1,2 +1,15 @@
 # ionic-google-map-service
 A very standard but working version of an ionic map service. Pros: simple to use | Cons: maybe limited
+
+# How to:
+Append this important meta tag to your index.html
+```
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://maps.googleapis.com/ https://maps.gstatic.com/ https://mts0.googleapis.com/ 'unsafe-inline' 'unsafe-eval'">
+```
+
+Append the google maps api:
+```
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+```
+
+Call and use the service

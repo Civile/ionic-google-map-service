@@ -13,3 +13,22 @@ Append the google maps api:
 ```
 
 Call and use the service
+
+
+# Example
+HTML:
+```
+<div class="map-wrapper" ng-init="init()">
+  <div id="mymapid" style="width:100%;height:150px;" data-tap-disabled="true"></div>
+</div>
+```
+SCRIPT IN OUR CONTROLLER:
+```
+$scope.init = function() {
+  Map.Init('mymapid', function() {
+      Map.GeocodeCoord(43.07493, -89.381388, function(geometry) {
+        Map.AddMarker(geometry.location);
+      });
+  });
+}
+```

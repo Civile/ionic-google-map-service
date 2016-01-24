@@ -1,6 +1,8 @@
 # ionic-google-map-service
 A very standard but working version of an ionic map service. Pros: simple to use | Cons: maybe limited
 
+I was looking for something very simple to use, without installing any third party plugins, so that's all
+
 Angular version: AngularJS v1.4.3
 
 # How to:

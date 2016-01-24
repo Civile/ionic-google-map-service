@@ -6,7 +6,8 @@ I was looking for something very simple to use, without installing any third par
 Angular version: AngularJS v1.4.3
 
 # How to:
-Append this important meta tag to your index.html
+Append this important meta tag to your index.html 
+(thanks to mikeon [Issue here](https://forum.ionicframework.com/t/ionic-google-maps-referenceerror-google-is-not-defined/22550/6) )
 ```
 <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://maps.googleapis.com/ https://maps.gstatic.com/ https://mts0.googleapis.com/ 'unsafe-inline' 'unsafe-eval'">
 ```

@@ -53,7 +53,7 @@ myapp.service('Map', function($rootScope, $http) {
           callback.call(this, results[0].geometry);
         }
       } else {
-        alert("Geocode was not successful for the following reason: " + status);
+        alert("Geocode was not successful due the following reason: " + status);
       }
     });
   };
